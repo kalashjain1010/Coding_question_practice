@@ -1,3 +1,4 @@
+//leetcode ques no. 1021
 import java.util.*;
  
 
