@@ -26,6 +26,7 @@ public class removeOutermostParenthesis {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter paranthesis  ( , )");
         String result = removeParen(sc.nextLine());
+        sc.close();
         
         System.out.println("result is " + result);
 

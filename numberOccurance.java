@@ -11,7 +11,7 @@ public class numberOccurance {
 
         int count=0;
 
-        for (int i = 0; i < x; i++) {
+        for (int i = 1; i < x; i++) {
             
             int n =i;
             while(n>0){
@@ -24,5 +24,7 @@ public class numberOccurance {
             }
         }
         System.out.println("no. is "+ count);
+        int k= 5%10;
+        System.out.println(k);
     }
 }
