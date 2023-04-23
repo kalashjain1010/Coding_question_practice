@@ -2,12 +2,31 @@ import java.util.*;
 
 public class rotateArray {
 
-    public static void main(String[] args) {
-        int[] nums = { 10, 20, 30, 40, 50 };
+    public void rotate(int[] arr, int k) {
+        
+        k=k%arr.length;
+        int i=arr.length-k;
 
-        for (int i = nums.length -1; i >= 0 ; i--) {
-            System.out.println(nums[i]);
-        }
+        reverse(arr,i,arr.length-1);
+        
+        reverse(arr,0,i-1);
+        
+        reverse(arr,0,arr.length-1);
+    }
+   public static void reverse(int [] arr,int i, int j)
+	{
+		while(i < j)
+		{
+			int temp=arr[i];
+			arr[i]=arr[j];
+			arr[j]=temp;
+			i++;
+			j--;
+	    	}
+    }
+    
+    public static void main(String[] args) {
+       int arr[] = {1 , 2 ,34 ,5 ,55 };
         
     }
 }
