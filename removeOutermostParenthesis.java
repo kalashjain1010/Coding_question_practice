@@ -18,7 +18,7 @@ public class removeOutermostParenthesis {
                 count--;
             }
         }
-
+        
         return str.toString();
     }
 
