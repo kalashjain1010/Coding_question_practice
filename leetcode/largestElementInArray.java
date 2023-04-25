@@ -19,6 +19,6 @@ public class largestElementInArray {
                 max = arr[i];
         }
         System.out.println(max);
-        //to finds 
+        
     }
 }
