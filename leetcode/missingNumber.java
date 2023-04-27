@@ -15,7 +15,7 @@ public class missingNumber {
         int sumAct =(nums.length* (nums.length+1))/2;
 
         int ans = sumAct - sum;
-
+        //this is kalash
         return ans;
     }
 }
