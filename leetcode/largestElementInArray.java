@@ -4,6 +4,7 @@ public class largestElementInArray {
 
     public static void main(String[] args) {
 
+
         Scanner sc = new Scanner(System.in);
         System.out.println("length of arr:");
         int n = sc.nextInt();
@@ -18,6 +19,7 @@ public class largestElementInArray {
             if (arr[i] > max)
                 max = arr[i];
         }
+        sc.close();
         System.out.println(max);
        
     }
