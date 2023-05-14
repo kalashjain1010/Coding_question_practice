@@ -1,5 +1,6 @@
 // package tcs;
 import java.util.*;
+import java.lang.Math;
 
 public class sumOfDiagonal {
     public static void main(String[] args) {
@@ -24,7 +25,23 @@ public class sumOfDiagonal {
                     sum+= arr[i][j];
                 }
             }
+         } 
+
+         int sum2 =0;
+         for (int i = 0; i < k; i++) {
+            for (int j = k-1; j >= 0; j--) {
+                if ((i + j) == (k - 1)){
+
+                    sum2+= arr[i][j];  
+                }
+            }
          }
+
          System.out.println(sum);
+         System.out.println(sum2);
+       
+            System.out.println("-----------------------------");
+         System.out.println(Math.abs(sum-sum2));
+         
     }
 }
