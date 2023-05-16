@@ -17,6 +17,7 @@ public class sumOfDiagonal {
                 arr[i][j]=sc.nextInt();
             }
          }
+         //comment
 
          int sum =0;
          for (int i = 0; i < k; i++) {
