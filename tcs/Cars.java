@@ -14,5 +14,6 @@ public class Cars {
         
         System.out.println(X);
          System.out.println(Y);
+         //ans
     }
 }
